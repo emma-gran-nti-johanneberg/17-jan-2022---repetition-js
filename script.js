@@ -54,5 +54,22 @@ let dicegame = {
 
             this.totalValue = this.totalValue + value;
         }
+        console.log(this.stat);
     }
 };
+
+//for loop
+for(let i = 1000; i>0; i--){
+    
+    if(num[i]>=20 && num[i]<= 100){
+        //document.write(`<p>${num1}`)
+    }
+
+    document.write(`<p>${i}</p>`);
+
+}
+
+
+document.querySelector('h1').innerText = `hello Johan!`;
+document.querySelector('h2').style.backgroundColor = 'red';
+document.querySelectorAll('li').innerText = `Wheeee!`
